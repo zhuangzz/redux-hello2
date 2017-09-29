@@ -7,7 +7,8 @@ class App extends Component{
   render(){
     return(
       <div className="app">
-        app
+        <PostBody />
+        <CommentBox />
       </div>
     )
   }

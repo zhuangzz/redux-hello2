@@ -1,0 +1,23 @@
+.post-body-wrap{
+  width: 100%;
+  height: 80vh;
+  background-color: lightgreen;
+  padding: 80px;
+  display: flex;
+}
+.post-body{
+  background-color: #fff;
+  flex-grow: 1;
+  position: relative;
+}
+.post-body .button1{
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  padding: 20px 40px;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  background-color: yellow;
+  color: purple;
+}
